@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1757422057",
+        "python_version": "3.9.6 (default, Apr 30 2025, 02:07:17) \n[Clang 17.0.0 (clang-1700.0.13.5)]",
+        "command_line_arguments": "/Users/kimjunghwan/MLProj/venv/bin/mlagents-learn config/trainer_config.yaml --run-id=SuikaRun_001 --train",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.11.0",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1757422100"
+    },
+    "total": 42.878367624999996,
+    "count": 1,
+    "self": 0.036996582999996974,
+    "children": {
+        "run_training.setup": {
+            "total": 0.01831345800000017,
+            "count": 1,
+            "self": 0.01831345800000017
+        },
+        "TrainerController.start_learning": {
+            "total": 42.823057584,
+            "count": 1,
+            "self": 0.0012289180000024658,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 42.821778458,
+                    "count": 1,
+                    "self": 42.821778458
+                },
+                "trainer_threads": {
+                    "total": 2.1669999981099863e-06,
+                    "count": 1,
+                    "self": 2.1669999981099863e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 4.8040999999443557e-05,
+                    "count": 1,
+                    "self": 4.8040999999443557e-05
+                }
+            }
+        }
+    }
+}

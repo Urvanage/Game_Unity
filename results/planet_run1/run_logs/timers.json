@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1757477091",
+        "python_version": "3.9.6 (default, Apr 30 2025, 02:07:17) \n[Clang 17.0.0 (clang-1700.0.13.5)]",
+        "command_line_arguments": "/Users/kimjunghwan/MLProj/venv/bin/mlagents-learn config/planet_config.yaml --run-id=planet_run1 --train",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.11.0",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1757477145"
+    },
+    "total": 54.235528083,
+    "count": 1,
+    "self": 0.041530457999996884,
+    "children": {
+        "run_training.setup": {
+            "total": 0.020989208000000037,
+            "count": 1,
+            "self": 0.020989208000000037
+        },
+        "TrainerController.start_learning": {
+            "total": 54.173008417,
+            "count": 1,
+            "self": 0.0024265419999949245,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 54.170544416,
+                    "count": 1,
+                    "self": 54.170544416
+                },
+                "trainer_threads": {
+                    "total": 2.6250000004779395e-06,
+                    "count": 1,
+                    "self": 2.6250000004779395e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 3.4834000004480004e-05,
+                    "count": 1,
+                    "self": 3.4834000004480004e-05
+                }
+            }
+        }
+    }
+}
